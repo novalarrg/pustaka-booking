@@ -21,6 +21,6 @@ class Coba extends CI_Controller {
 	public function index()
 	{
 		//$this->load->view('welcome_message');
-		echo "Selamt Dataang di Web Programming 2";
+		echo "Selamat Datang di Web Programming 2";
 	}
 }
