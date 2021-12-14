@@ -64,9 +64,4 @@ class ModelBuku extends CI_Model
         $this->db->where($where);
         return $this->db->get();
     }
-
-    public function cekData($where = null)
-    {
-        return $this->db->get_where('user', $where);
-    }
 }
